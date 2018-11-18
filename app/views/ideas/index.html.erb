@@ -15,6 +15,7 @@
   <tbody>
     <% @ideas.each do |idea| %>
       <tr>
+        <td><%= idea.id %></td>
         <td><%= idea.name %></td>
         <td><%= idea.description %></td>
         <td><%= image_tag idea.picture_url, width: '100%' if idea.picture.present? %></td>

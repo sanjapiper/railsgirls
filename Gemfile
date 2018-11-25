@@ -13,6 +13,8 @@ group :production do
 end
 #added from myfirstapp guide
 gem 'carrierwave'
+#added imagemagick
+gem 'mini_magick', '4.8.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
